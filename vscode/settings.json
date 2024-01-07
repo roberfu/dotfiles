@@ -1,7 +1,8 @@
 {
-	"workbench.startupEditor": "none",
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.fontFamily": "'CaskaydiaCove Nerd Font', Consolas, 'Courier New', monospace",
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Atom One Dark",
-	"editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
-	"redhat.telemetry.enabled": true
+	"workbench.colorTheme": "One Monokai",
+	"editor.formatOnSave": true,
+	"editor.fontLigatures": true
 }
