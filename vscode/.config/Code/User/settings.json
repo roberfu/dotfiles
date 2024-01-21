@@ -1,6 +1,6 @@
 {
 	"security.workspace.trust.untrustedFiles": "open",
-	"editor.fontFamily": "'CaskaydiaCove Nerd Font', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "One Monokai",
 	"editor.formatOnSave": true,
