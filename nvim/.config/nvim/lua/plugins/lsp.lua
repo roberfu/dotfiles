@@ -10,7 +10,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "biome" }
+        ensure_installed = { "lua_ls", "biome", "marksman" }
       })
     end
   },
@@ -32,6 +32,7 @@ return {
       })
 
       lspconfig.biome.setup({})
+      lspconfig.marksman.setup({})
 
       vim.keymap.set('n', '<leader>gh', vim.lsp.buf.hover, {})
       vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
