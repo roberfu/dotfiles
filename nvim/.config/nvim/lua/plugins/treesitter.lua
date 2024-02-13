@@ -13,7 +13,8 @@ return {
       },
       indent = {
         enable = true
-      }
+      },
+      ensure_installed = {"http", "json"}
     })
   end
 }

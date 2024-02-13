@@ -91,6 +91,10 @@
 		"branch": "master",
 		"commit": "55d9fe89e33efd26f532ef20223e5f9430c8b0c0"
 	},
+	"rest.nvim": {
+		"branch": "main",
+		"commit": "9741f827bd88b588e5136d67c7963e1904f8f1f7"
+	},
 	"telescope.nvim": {
 		"branch": "master",
 		"commit": "d90956833d7c27e73c621a61f20b29fdb7122709"
