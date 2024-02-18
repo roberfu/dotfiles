@@ -1,8 +1,10 @@
 {
 	"security.workspace.trust.untrustedFiles": "open",
-	"editor.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "One Monokai",
 	"editor.formatOnSave": true,
-	"editor.fontLigatures": true
+	"editor.fontLigatures": true,
+	"redhat.telemetry.enabled": true,
+	"workbench.startupEditor": "none"
 }
