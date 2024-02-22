@@ -38,7 +38,7 @@
 	"profiles": {
 		"defaults": {
 			"font": {
-				"face": "FiraCode Nerd Font",
+				"face": "Hack Nerd Font",
 				"size": 12
 			}
 		},
