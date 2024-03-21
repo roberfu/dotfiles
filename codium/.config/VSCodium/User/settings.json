@@ -1,5 +1,6 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Palenight Theme",
-  "editor.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace"
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.startupEditor": "none",
+  "editor.fontFamily": "'CaskaydiaMono Nerd Font', Consolas, 'Courier New', monospace"
 }
