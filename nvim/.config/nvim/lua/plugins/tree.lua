@@ -1,4 +1,4 @@
-return {
+return { -- tree folder and files
 	"nvim-tree/nvim-tree.lua",
 	version = "*",
 	lazy = false,

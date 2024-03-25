@@ -1,4 +1,4 @@
-return {
+return { -- notify popups
 	"rcarriga/nvim-notify",
 	event = "VeryLazy",
 	config = function()
