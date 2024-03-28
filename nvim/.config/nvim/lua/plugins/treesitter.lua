@@ -1,14 +1,31 @@
-return { -- highlights code
+return { -- hightlight text
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
 	opts = {
-		ensure_installed = { "bash", "c", "html", "lua", "markdown", "vim", "vimdoc", "xml", "http", "json", "graphql" },
-		auto_install = true,
-		highlight = {
-			enable = true,
-			additional_vim_regex_highlighting = { "ruby" },
+		ensure_installed = {
+			"bash",
+			"html",
+			"lua",
+			"markdown",
+			"vim",
+			"vimdoc",
+			"xml",
+			"http",
+			"json",
+			"graphql",
+			"javascript",
+			"typescript",
+			"python",
+			"java",
+			"toml",
 		},
-		indent = { enable = true, disable = { "ruby" } },
+		auto_install = true,
+		hightlight = {
+			enable = true,
+		},
+		indent = {
+			enable = true,
+		},
 	},
 	config = function(_, opts)
 		require("nvim-treesitter.configs").setup(opts)
