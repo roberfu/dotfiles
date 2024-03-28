@@ -1,6 +1,8 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "workbench.startupEditor": "none",
-  "editor.fontFamily": "'CaskaydiaMono Nerd Font', Consolas, 'Courier New', monospace"
+  "editor.fontFamily": "'FiraMono Nerd Font', Consolas, 'Courier New', monospace",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontLigatures": false
 }
