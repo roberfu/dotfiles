@@ -1,6 +1,6 @@
 [core]
-color-theme = "Tokyo Night Storm"
 icon-theme = "Material Icons"
 
 [editor]
-font-family = "Hack Nerd Font"
+font-size = 14
+font-family = "FiraMono Nerd Font"
