@@ -4,7 +4,7 @@ return { -- status line
 	config = function()
 		require("lualine").setup({
 			options = {
-				theme = "tokyonight",
+				theme = "onedark",
 			},
 		})
 	end,
