@@ -55,6 +55,10 @@
 		"branch": "main",
 		"commit": "97dc716fc914c46577a4f254035ebef1aa72558a"
 	},
+	"nvim-jdtls": {
+		"branch": "master",
+		"commit": "8eb5f0dbe6e126b392ddcaf45893358619893e45"
+	},
 	"nvim-lspconfig": {
 		"branch": "master",
 		"commit": "6e5c78ebc9936ca74add66bda22c566f951b6ee5"
