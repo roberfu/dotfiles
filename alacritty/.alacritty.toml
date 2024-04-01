@@ -1,5 +1,6 @@
+working_directory = "None"
 [window]
-opacity = 0.95
+opacity = 1
 startup_mode = "Maximized"
 [font]
 normal = { family = "Hack Nerd Font", style = "Regular" }
@@ -7,3 +8,4 @@ bold = { family = "Hack Nerd Font", style = "Bold" }
 italic = { family = "Hack Nerd Font", style = "Italic" }
 bold_italic = { family = "Hack Nerd Font", style = "Bold Italic" }
 size = 10
+
