@@ -1,3 +1,5 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 winget upgrade --accept-source-agreements --accept-package-agreements
 
 winget upgrade --accept-source-agreements --accept-package-agreements --include-unknown Microsoft.DesktopAppInstaller
@@ -5,7 +7,7 @@ winget upgrade --accept-source-agreements --accept-package-agreements --include-
 winget upgrade --accept-source-agreements --accept-package-agreements --all
 
 $apps = @(
-    "7zip.7zip",
+    #"7zip.7zip",
     "Docker.DockerDesktop", 
     "Git.Git", 
     "Google.Chrome", 
@@ -18,11 +20,11 @@ $apps = @(
     "VideoLAN.VLC",
     "Microsoft.PowerShell",
     "Python.Python.3.13",
-    "Spotify.Spotify",
-    "Alacritty.Alacritty",
-    "VSCodium.VSCodium",
+    #"Spotify.Spotify",
+    #"Alacritty.Alacritty",
+    #"VSCodium.VSCodium",
     "VMware.WorkstationPlayer")
 
 foreach ($app in $apps) {
-    Write-Output "winget install $app --accept-source-agreements --accept-package-agreements"
+    Write-Output "winget install $app --accept-source-agreements --accept-package-agreements" | Invoke-Expression
 }
