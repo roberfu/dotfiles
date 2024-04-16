@@ -6,7 +6,7 @@ scoop bucket add main
 
 scoop bucket add extras
 
-scoop bucket add main
+scoop bucket add versions
 
 $apps = @(
     "main/7zip",
@@ -17,5 +17,3 @@ $apps = @(
 foreach ($app in $apps) {
     Write-Output "scoop install $app"  | Invoke-Expression
 }
-
-scoop install 

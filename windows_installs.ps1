@@ -1,9 +1,3 @@
-winget upgrade --accept-source-agreements --accept-package-agreements
-
-winget upgrade --accept-source-agreements --accept-package-agreements --include-unknown Microsoft.DesktopAppInstaller
-
-winget upgrade --accept-source-agreements --accept-package-agreements --all
-
 $apps = @(
     "7zip.7zip",
     "Docker.DockerDesktop", 
@@ -20,9 +14,9 @@ $apps = @(
     "Python.Python.3.13",
     "JetBrains.IntelliJIDEA.Community",
     "Notepad++.Notepad++",
-    "Bruno.Bruno",
     "Oracle.VirtualBox",
-    "dbeaver.dbeaver")
+    "dbeaver.dbeaver",
+    "SumatraPDF.SumatraPDF")
 
 foreach ($app in $apps) {
     Write-Output "winget install $app --accept-source-agreements --accept-package-agreements" | Invoke-Expression
