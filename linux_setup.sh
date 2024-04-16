@@ -15,7 +15,7 @@ if ! command -v stow &> /dev/null; then
     fi
 fi
 
-DOT_FOLDERS="alacritty, codium, git, lapce, nvim, code"
+DOT_FOLDERS="alacritty, git, lapce, nvim"
 
 for folder in $(echo $DOT_FOLDERS | sed "s/,/ /g"); do
     echo "[+] Folder :: $folder"
