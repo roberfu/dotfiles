@@ -24,7 +24,7 @@ return { -- lsp config
 		}
 		require("mason").setup()
 		local ensure_installed = vim.tbl_keys(servers or {})
-		vim.list_extend(ensure_installed, {
+		vim.list_extend(ensure_installed, { -- add server to ensure install without config
 			"stylua", -- Used to format Lua code
 			"biome",
 			"isort",
@@ -33,6 +33,7 @@ return { -- lsp config
 			"prettierd",
 			"taplo",
 			"jdtls",
+			"pyright",
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 		require("mason-lspconfig").setup({
