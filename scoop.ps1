@@ -27,7 +27,12 @@ $apps = @(
     "extras/dbeaver",
     "extras/sumatrapdf",
     "extras/spotify",
-    "extras/anydesk")
+    "extras/anydesk",
+    "extras/ventoy",
+    "extras/alacritty",
+    "extras/onlyoffice-desktopeditors",
+    "extras/putty",
+    "extras/filezilla")
 
 foreach ($app in $apps) {
     Write-Output "scoop install $app"  | Invoke-Expression
