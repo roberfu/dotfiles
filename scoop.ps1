@@ -8,6 +8,7 @@ scoop bucket add extras
 scoop bucket add versions
 scoop bucket add nerd-fonts
 scoop bucket add java
+scoop bucket add games
 
 $apps = @(
     #"main/7zip", installed with git 
