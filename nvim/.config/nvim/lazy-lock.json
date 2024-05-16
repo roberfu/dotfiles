@@ -3,6 +3,10 @@
 		"branch": "master",
 		"commit": "a7a4b4682c4b3e2ba82b82a4e6e5f5a0e79dec32"
 	},
+	"barbar.nvim": {
+		"branch": "master",
+		"commit": "dd852401ee902745b67fc09a83d113b3fe82a96f"
+	},
 	"cmp-nvim-lsp": {
 		"branch": "main",
 		"commit": "5af77f54de1b16c34b23cba810150689a3a90312"
