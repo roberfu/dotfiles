@@ -3,9 +3,7 @@ $pathScript = $PSScriptRoot
 
 $folders = @(
     @("\\git\\", ""),
-    @("\\nvim\\.config\\nvim\\", "\\AppData\\Local\\nvim\\"),
-    @("\\codium\\.config\\VSCodium\\User\\", "\\AppData\\Roaming\\VSCodium\\User\\"),
-    @("\\alacritty\\", "\\AppData\\Roaming\\alacritty\\"),
+    @("\\codium\\.config\\VSCodium\\User\\", "\\AppData\\Roaming\\VSCodium\\User\\")
     # @("carpeta_origen", "carpeta_destino")
 )
 
