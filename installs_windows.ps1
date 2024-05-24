@@ -17,7 +17,9 @@ $apps = @(
     "ONLYOFFICE.DesktopEditors",
     "Bruno.Bruno",
     "PuTTY.PuTTY",
-    "Oracle.VirtualBox")
+    "Oracle.VirtualBox",
+    "Rufus.Rufus",
+    "Discord.Discord")
     
     # Filezilla
 
