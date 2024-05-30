@@ -25,7 +25,7 @@
 	},
 	"lazy.nvim": {
 		"branch": "main",
-		"commit": "758bb5de98b805acc5eeed8cdc8ac7f0bc4b0b86"
+		"commit": "24fa2a97085ca8a7220b5b078916f81e316036fd"
 	},
 	"lualine.nvim": {
 		"branch": "master",
