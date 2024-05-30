@@ -1,7 +1,7 @@
 {
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.startupEditor": "none",
-	"editor.fontFamily": "'FiraCode Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'Hack Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
 	"security.workspace.trust.untrustedFiles": "open",
 	"editor.fontLigatures": false,
 	"workbench.colorTheme": "Tokyo Night Storm",
