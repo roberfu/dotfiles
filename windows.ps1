@@ -7,6 +7,8 @@ $folders = @(
     # @("app_name", "carpeta_origen", "carpeta_destino")
 )
 
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 foreach ($item in $folders) {
     $appName = $item[0]
     $pathFrom = Join-Path $pathScript $item[1]
@@ -41,7 +43,10 @@ $apps = @(
     "dbeaver.dbeaver",
     "SumatraPDF.SumatraPDF",
     "ONLYOFFICE.DesktopEditors",
-    "Discord.Discord")
+    "Discord.Discord",
+    "RazerInc.RazerInstaller",
+    "JetBrains.IntelliJIDEA.Community",
+    "Bruno.Bruno")
 
 foreach ($app in $apps) {
     Write-Output "winget install $app --accept-source-agreements --accept-package-agreements" | Invoke-Expression
