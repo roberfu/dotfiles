@@ -1,9 +1,9 @@
 {
-	"workbench.iconTheme": "material-icon-theme",
 	"workbench.startupEditor": "none",
-	"editor.fontFamily": "'JetBrainsMono Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
-	"security.workspace.trust.untrustedFiles": "open",
-	"editor.fontLigatures": false,
-	"workbench.colorTheme": "Tokyo Night Storm",
-	"editor.fontSize": 14,
+	"redhat.telemetry.enabled": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Palenight Theme",
+	"editor.fontFamily": "'Hack Nerd Font Mono', 'Cascadia Code', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true
 }
