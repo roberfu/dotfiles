@@ -1,6 +1,5 @@
 {
 	"workbench.startupEditor": "none",
-	"redhat.telemetry.enabled": false,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "Palenight Theme",
 	"editor.fontFamily": "'Hack Nerd Font Mono', 'Cascadia Code', Consolas, 'Courier New', monospace",
