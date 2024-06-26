@@ -7,12 +7,12 @@ $apps = @(
     "qBittorrent.qBittorrent",
     "VideoLAN.VLC",
     "Notepad++.Notepad++",
-    "dbeaver.dbeaver",
     "SumatraPDF.SumatraPDF",
     "ONLYOFFICE.DesktopEditors",
     "Discord.Discord",
     "RazerInc.RazerInstaller",
-    "Logitech.GHUB")
+    "Logitech.GHUB",
+    "Bruno.Bruno")
 
 foreach ($app in $apps) {
     Write-Output "winget install $app --accept-source-agreements --accept-package-agreements" | Invoke-Expression
