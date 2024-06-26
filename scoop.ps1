@@ -7,7 +7,7 @@ scoop bucket add java
 scoop bucket add games
 
 $apps = @(
-    "nerd-fonts/Hack-NF-Mono",
+    "nerd-fonts/Delugia-Nerd-Font-Complete"
     "main/maven",
     "java/openjdk",
     "main/nodejs-lts",
