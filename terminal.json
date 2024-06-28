@@ -1,0 +1,11 @@
+{
+    "launchMode": "maximized",
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "FiraCode Nerd Font Mono"
+            },
+            "opacity": 90
+        }
+    }
+}

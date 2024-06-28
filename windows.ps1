@@ -1,3 +1,5 @@
+# Set-ExecutionPolicy Unrestricted
+
 $user = $env:USERNAME
 $pathScript = $PSScriptRoot
 
@@ -6,8 +8,6 @@ $folders = @(
     @("git", "\\git\\", "")
     # @("app_name", "carpeta_origen", "carpeta_destino")
 )
-
-# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 foreach ($item in $folders) {
     $appName = $item[0]

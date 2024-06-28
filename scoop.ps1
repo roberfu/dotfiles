@@ -1,13 +1,14 @@
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+# Set-ExecutionPolicy Unrestricted
+# Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
+scoop install git
 scoop bucket add main
 scoop bucket add nerd-fonts
 scoop bucket add java
 scoop bucket add games
 
 $apps = @(
-    "nerd-fonts/Delugia-Nerd-Font-Complete"
+    "nerd-fonts/Hack-NF-Mono",
     "main/maven",
     "java/openjdk",
     "main/nodejs-lts",
