@@ -3,7 +3,7 @@
     "profiles": {
         "defaults": {
             "font": {
-                "face": "FiraCode Nerd Font Mono"
+                "face": "Hack Nerd Font Mono"
             },
             "opacity": 90
         }
