@@ -10,12 +10,10 @@ $apps = @(
     "SumatraPDF.SumatraPDF",
     "ONLYOFFICE.DesktopEditors",
     "Discord.Discord",
-    "RazerInc.RazerInstaller",
     "Logitech.GHUB",
     "Oracle.JDK.21",
     "Python.Python.3.12",
-    "OpenJS.NodeJS.LTS",
-    "Piriform.CCleaner")
+    "OpenJS.NodeJS.LTS")
 
 foreach ($app in $apps) {
     Write-Output "winget install $app --accept-source-agreements --accept-package-agreements" | Invoke-Expression
