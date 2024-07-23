@@ -15,7 +15,8 @@ $apps = @(
     "Python.Python.3.12",
     "OpenJS.NodeJS.LTS",
     "Mozilla.Firefox.DeveloperEdition",
-    "ThePokemonCompany.PokemonTCGLive")
+    "ThePokemonCompany.PokemonTCGLive",
+    "wez.wezterm")
 
 foreach ($app in $apps) {
     Write-Output "winget install $app --accept-source-agreements --accept-package-agreements" | Invoke-Expression
