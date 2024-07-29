@@ -14,8 +14,8 @@ $apps = @(
     "Oracle.JDK.21",
     "Python.Python.3.12",
     "OpenJS.NodeJS.LTS",
-    "Mozilla.Firefox.DeveloperEdition",
     "ThePokemonCompany.PokemonTCGLive",
+    "WizardsoftheCoast.MTGALauncher"
     "wez.wezterm")
 
 foreach ($app in $apps) {
