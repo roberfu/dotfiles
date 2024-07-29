@@ -2,8 +2,8 @@
 	"workbench.startupEditor": "none",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "Tokyo Night Storm",
-	"editor.fontFamily": "'MesloLGS Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.formatOnSave": true,
-	"security.workspace.trust.untrustedFiles": "open",
+	"security.workspace.trust.untrustedFiles": "open"
 }
