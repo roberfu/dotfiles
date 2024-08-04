@@ -14,6 +14,7 @@ $apps = @(
     "Oracle.JDK.21",
     "Python.Python.3.12",
     "OpenJS.NodeJS.LTS",
+    "Oracle.VirtualBox",
     "ThePokemonCompany.PokemonTCGLive",
     "WizardsoftheCoast.MTGALauncher"
     "wez.wezterm")
