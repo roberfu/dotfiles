@@ -1,10 +1,11 @@
-return { -- lsp config
+return { -- language server protocol config
 	"neovim/nvim-lspconfig",
 	dependencies = {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
 		"WhoIsSethDaniel/mason-tool-installer.nvim",
 		"hrsh7th/cmp-nvim-lsp",
+		"nvim-lua/plenary.nvim",
 		{ "folke/neodev.nvim", opts = {} },
 	},
 	config = function()
@@ -24,16 +25,10 @@ return { -- lsp config
 		}
 		require("mason").setup()
 		local ensure_installed = vim.tbl_keys(servers or {})
-		vim.list_extend(ensure_installed, { -- add server to ensure install without config
-			"stylua", -- Used to format Lua code
-			"biome",
-			"isort",
-			"black",
-			"prettier",
-			"prettierd",
-			"taplo",
-			"jdtls",
-			"pyright",
+		vim.list_extend(ensure_installed, { -- add servers to ensure install without config
+			"stylua",
+            "prettier",
+            "biome",
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 		require("mason-lspconfig").setup({
