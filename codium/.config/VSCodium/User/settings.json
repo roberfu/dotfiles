@@ -1,9 +1,9 @@
 {
-	"workbench.startupEditor": "none",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Tokyo Night Storm",
-	"editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-	"editor.fontLigatures": true,
+	"redhat.telemetry.enabled": true,
 	"editor.formatOnSave": true,
-	"security.workspace.trust.untrustedFiles": "open"
+	"java.saveActions.organizeImports": true,
+	"workbench.colorTheme": "Atom One Dark",
+	"editor.fontFamily": "'MesloLGS Nerd Font', Consolas, 'Courier New', monospace",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "none"
 }
