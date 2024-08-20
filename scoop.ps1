@@ -5,10 +5,7 @@ scoop bucket add main
 scoop bucket add nerd-fonts
 
 $apps = @(
-    "nerd-fonts/Hack-NF",
-    "main/maven",
-    "main/gcc",
-    "main/neovim")
+    "nerd-fonts/Meslo-NF")
 
 foreach ($app in $apps) {
     Write-Output "scoop install $app"  | Invoke-Expression

@@ -4,9 +4,6 @@ $user = $env:USERNAME
 $pathScript = $PSScriptRoot
 
 $folders = @(
-    @("codium", "\\codium\\.config\\VSCodium\\User\\", "\\AppData\\Roaming\\VSCodium\\User\\"),
-    @("git", "\\git\\", ""),
-    @("neovim", "\\nvim\\.config\\", "\AppData\\Local\\"),
     @("wezterm", "\\wezterm\\.config\\", "" )
     # @("app_name", "carpeta_origen", "carpeta_destino")
 )

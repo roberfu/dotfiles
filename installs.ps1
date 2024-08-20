@@ -1,7 +1,4 @@
 $apps = @(
-    "Docker.DockerDesktop",
-    "Microsoft.PowerShell",
-    "VSCodium.VSCodium",
     "Google.Chrome",
     "Valve.Steam",
     "qBittorrent.qBittorrent",
@@ -11,10 +8,6 @@ $apps = @(
     "ONLYOFFICE.DesktopEditors",
     "Discord.Discord",
     "Logitech.GHUB",
-    "Oracle.JDK.21",
-    "Python.Python.3.12",
-    "OpenJS.NodeJS.LTS",
-    "Oracle.VirtualBox",
     "ThePokemonCompany.PokemonTCGLive",
     "WizardsoftheCoast.MTGALauncher"
     "wez.wezterm")
