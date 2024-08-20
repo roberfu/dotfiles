@@ -1,14 +1,17 @@
 return {
-	"mistweaverco/kulala.nvim",
-	opts = {},
-	config = function()
-		require("kulala").setup()
+    "mistweaverco/kulala.nvim",
+    opts = {
+        split_direction = "vertical",
+        winbar = true,
+    },
+    config = function()
+        require("kulala").setup()
 
-		vim.api.nvim_set_keymap(
-			"n",
-			"<leader>rr",
-			":lua require('kulala').run()<CR>",
-			{ desc = "Http [R]equest", noremap = true, silent = true }
-		)
-	end,
+        vim.api.nvim_set_keymap(
+            "n",
+            "<leader>rr",
+            ":lua require('kulala').run()<CR>",
+            { desc = "Http [R]equest", noremap = true, silent = true }
+        )
+    end,
 }
