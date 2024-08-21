@@ -14,6 +14,7 @@ return { -- code formating
 				formatting.stylua,
 				formatting.prettier,
 				formatting.biome,
+                formatting.black,
 				require("none-ls.diagnostics.eslint_d"),
 			},
 		})
