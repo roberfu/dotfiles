@@ -46,7 +46,7 @@ return { -- language server protocol config
             "prettier",
             "biome",
             "jq",
-            "black",
+            "black"
         })
         require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
         require("mason-lspconfig").setup({

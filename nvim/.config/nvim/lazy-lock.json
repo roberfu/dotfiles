@@ -37,7 +37,7 @@
 	},
 	"kulala.nvim": {
 		"branch": "main",
-		"commit": "721f0cee90be2712225dafe2d0be97b95abac2c9"
+		"commit": "8a0093e7fff94a27fb82e17fd5b48480115d7cd5"
 	},
 	"lazy.nvim": {
 		"branch": "main",
@@ -53,7 +53,7 @@
 	},
 	"mason-lspconfig.nvim": {
 		"branch": "main",
-		"commit": "1c55991321d1a861537e32446affc5de5d9a6eaf"
+		"commit": "482350b050bd413931c2cdd4857443c3da7d57cb"
 	},
 	"mason-tool-installer.nvim": {
 		"branch": "main",
@@ -83,9 +83,17 @@
 		"branch": "main",
 		"commit": "ae644feb7b67bf1ce4260c231d1d4300b19c6f30"
 	},
+	"nvim-dap": {
+		"branch": "master",
+		"commit": "281a2e4cd1e7a17cea7ecb1745d84a8ab1249925"
+	},
+	"nvim-jdtls": {
+		"branch": "master",
+		"commit": "99e4b2081de1d9162666cc7b563cbeb01c26b66b"
+	},
 	"nvim-lspconfig": {
 		"branch": "master",
-		"commit": "20906fce8587c85266b26d0b35d1bc0df2d49d58"
+		"commit": "b21c166bbf337734f2a39734a905c1c3e298205c"
 	},
 	"nvim-tree.lua": {
 		"branch": "master",
@@ -93,7 +101,7 @@
 	},
 	"nvim-treesitter": {
 		"branch": "master",
-		"commit": "6699eae8ba4551fe927da0f0f3f61ae085f836aa"
+		"commit": "0b8b78f9d08dc338a146eb4cd4bcbed8dd36a783"
 	},
 	"nvim-web-devicons": {
 		"branch": "master",
@@ -102,6 +110,10 @@
 	"plenary.nvim": {
 		"branch": "master",
 		"commit": "ec289423a1693aeae6cd0d503bac2856af74edaa"
+	},
+	"springboot-nvim": {
+		"branch": "main",
+		"commit": "96d52ac555c0787e3cabde6ba577e505c9f8e9c9"
 	},
 	"telescope.nvim": {
 		"branch": "0.1.x",
