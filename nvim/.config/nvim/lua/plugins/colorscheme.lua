@@ -9,6 +9,8 @@ return { -- theme
 				sidebars = "transparent",
 				floats = "dark",
 			},
+			on_colors = function() end,
+			on_highlights = function() end,
 		})
 
 		vim.cmd("colorscheme tokyonight-storm")
