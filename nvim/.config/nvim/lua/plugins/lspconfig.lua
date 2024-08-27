@@ -45,6 +45,7 @@ return { -- language server protocol config
             "stylua",
             "jq",
             "black",
+            "xmlformatter",
         })
         require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

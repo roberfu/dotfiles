@@ -32,6 +32,7 @@ return { -- autoformat
             lua = { "stylua" },
             json = { "jq" },
             python = { "black" },
+            xml = { "xmlformat" },
             -- Conform can also run multiple formatters sequentially
             -- python = { "isort", "black" },
 
@@ -47,7 +48,7 @@ return { -- autoformat
                 prepend_args = { "--line-length", "120", "--skip-string-normalization" },
             },
             jq = {
-                prepend_args = { "--indent", "4" },
+                prepend_args = { "--indent", "2" },
             },
         },
     },
