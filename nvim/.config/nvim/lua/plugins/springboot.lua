@@ -1,4 +1,4 @@
-return {
+return { -- springboot integration
     "elmcgill/springboot-nvim",
     depedencies = {
         "neovim/nvim-lspconfig",

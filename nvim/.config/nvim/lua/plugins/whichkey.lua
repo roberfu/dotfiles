@@ -1,4 +1,4 @@
-return {
+return { -- keymaping view
     "folke/which-key.nvim",
     event = "VeryLazy",
     opts = {

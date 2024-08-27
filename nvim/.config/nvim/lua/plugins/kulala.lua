@@ -1,4 +1,4 @@
-return {
+return { -- http request
     "mistweaverco/kulala.nvim",
     opts = {
         split_direction = "vertical",
