@@ -37,7 +37,7 @@
   },
   "gitsigns.nvim": {
     "branch": "main",
-    "commit": "80214a857ce512cc64964abddc1d8eb5a3e28396"
+    "commit": "899e993850084ea33d001ec229d237bc020c19ae"
   },
   "kulala.nvim": {
     "branch": "main",
@@ -89,7 +89,19 @@
   },
   "nvim-lspconfig": {
     "branch": "master",
-    "commit": "8a3610d29df83d8632f8ee7c3afc779c12725531"
+    "commit": "2a6f00ff66e276ab3289be8bb9f844f7ab385848"
+  },
+  "nvim-popcorn": {
+    "branch": "master",
+    "commit": "00c1d89a5734e9760c9f623bdd56141733a9ef5f"
+  },
+  "nvim-spinetta": {
+    "branch": "master",
+    "commit": "8160d36080d930e0a24248f550d4bdc3eab04119"
+  },
+  "nvim-springtime": {
+    "branch": "master",
+    "commit": "1113b74be728240b62e607e5140e30a14f6ab112"
   },
   "nvim-tree.lua": {
     "branch": "master",
@@ -97,7 +109,7 @@
   },
   "nvim-treesitter": {
     "branch": "master",
-    "commit": "7499f7379459db3b31c75cf5cec45f785be6e2c7"
+    "commit": "7a64148896289a91cb2a92e9da3f76d5512a3fb8"
   },
   "nvim-web-devicons": {
     "branch": "master",
