@@ -1,9 +1,0 @@
-{
-  "redhat.telemetry.enabled": true,
-  "editor.formatOnSave": true,
-  "java.saveActions.organizeImports": true,
-  "workbench.colorTheme": "Palenight Theme",
-  "editor.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none"
-}
