@@ -29,15 +29,15 @@
 	},
 	"conform.nvim": {
 		"branch": "master",
-		"commit": "b1a75324ddf96b7bb84963a297b1ed334db087c0"
+		"commit": "372fc521f8421b7830ea6db4d6ea3bae1c77548c"
 	},
 	"friendly-snippets": {
 		"branch": "main",
-		"commit": "efff286dd74c22f731cdec26a70b46e5b203c619"
+		"commit": "fc8f183479a472df60aa86f00e295462f2308178"
 	},
 	"gitsigns.nvim": {
 		"branch": "main",
-		"commit": "3c76f7fabac723aa682365ef782f88a83ccdb4ac"
+		"commit": "ee7e50dfbdf49e3acfa416fd3ad3abbdb658582c"
 	},
 	"lazy.nvim": {
 		"branch": "main",
@@ -49,7 +49,7 @@
 	},
 	"lualine.nvim": {
 		"branch": "master",
-		"commit": "1517caa8fff05e4b4999857319d3b0609a7f57fa"
+		"commit": "15884cee63a8c205334ab13ab1c891cd4d27101a"
 	},
 	"mason-lspconfig.nvim": {
 		"branch": "main",
@@ -57,7 +57,7 @@
 	},
 	"mason-tool-installer.nvim": {
 		"branch": "main",
-		"commit": "98767d37f8e5255a5111fc1e3163232d4dc07bda"
+		"commit": "1255518cb067e038a4755f5cb3e980f79b6ab89c"
 	},
 	"mason.nvim": {
 		"branch": "main",
@@ -65,31 +65,31 @@
 	},
 	"nvim-autopairs": {
 		"branch": "master",
-		"commit": "84a81a7d1f28b381b32acf1e8fe5ff5bef4f7968"
+		"commit": "4d74e75913832866aa7de35e4202463ddf6efd1b"
 	},
 	"nvim-cmp": {
 		"branch": "main",
-		"commit": "059e89495b3ec09395262f16b1ad441a38081d04"
+		"commit": "b5311ab3ed9c846b585c0c15b7559be131ec4be9"
 	},
 	"nvim-lspconfig": {
 		"branch": "master",
-		"commit": "ff6471d4f837354d8257dfa326b031dd8858b16e"
+		"commit": "8b0f47d851ee5343d38fe194a06ad16b9b9bd086"
 	},
 	"nvim-notify": {
 		"branch": "master",
-		"commit": "22f29093eae7785773ee9d543f8750348b1a195c"
+		"commit": "b5825cf9ee881dd8e43309c93374ed5b87b7a896"
 	},
 	"nvim-tree.lua": {
 		"branch": "master",
-		"commit": "6709463b2d18e77f7a946027917aa00d4aaed6f4"
+		"commit": "be5b788f2dc1522c73fb7afad9092331c8aebe80"
 	},
 	"nvim-treesitter": {
 		"branch": "master",
-		"commit": "4b390e1e46ca2e6220f14641cb840bbf9ad5446f"
+		"commit": "684eeac91ed8e297685a97ef70031d19ac1de25a"
 	},
 	"nvim-web-devicons": {
 		"branch": "master",
-		"commit": "4c3a5848ee0b09ecdea73adcd2a689190aeb728c"
+		"commit": "855c97005c8eebcdd19846f2e54706bffd40ee96"
 	},
 	"plenary.nvim": {
 		"branch": "master",
@@ -109,7 +109,7 @@
 	},
 	"volt": {
 		"branch": "main",
-		"commit": "21a2351697abfed26d4469b88d3ab124d55a1b3f"
+		"commit": "c45d5f48da8e802e608b5c6da471ca4d84276dfb"
 	},
 	"which-key.nvim": {
 		"branch": "main",
