@@ -37,7 +37,7 @@
 	},
 	"gitsigns.nvim": {
 		"branch": "main",
-		"commit": "ee7e50dfbdf49e3acfa416fd3ad3abbdb658582c"
+		"commit": "140ac646db125904e456e42ab8b538d28f9607d7"
 	},
 	"lazy.nvim": {
 		"branch": "main",
@@ -73,7 +73,7 @@
 	},
 	"nvim-lspconfig": {
 		"branch": "master",
-		"commit": "8b0f47d851ee5343d38fe194a06ad16b9b9bd086"
+		"commit": "7d32353d99fa24c9c2fac993b8378afbc92df94b"
 	},
 	"nvim-notify": {
 		"branch": "master",
@@ -89,7 +89,7 @@
 	},
 	"nvim-web-devicons": {
 		"branch": "master",
-		"commit": "855c97005c8eebcdd19846f2e54706bffd40ee96"
+		"commit": "50b5b06bff13a9b4eab946de7c7033649a6618a1"
 	},
 	"plenary.nvim": {
 		"branch": "master",
@@ -105,7 +105,7 @@
 	},
 	"typr": {
 		"branch": "main",
-		"commit": "db0f98fdb4c7b7263f4548ac8289fe8e26f0a0c9"
+		"commit": "ec1abe68229a0c3480ae2df51e1807fd091261ba"
 	},
 	"volt": {
 		"branch": "main",
