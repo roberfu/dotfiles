@@ -1,0 +1,11 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Hack Nerd Font Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "redhat.telemetry.enabled": true,
+    "sonarlint.focusOnNewCode": false,
+    "spring.initializr.defaultJavaVersion": "21",
+    "workbench.colorTheme": "Palenight Theme"
+}
