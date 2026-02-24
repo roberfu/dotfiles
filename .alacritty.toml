@@ -10,8 +10,8 @@ style = { shape = "Block", blinking = "Off" }
 [mouse]
 hide_when_typing = true
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
-bold_italic = { family = "<JetBrainsMono Nerd Font", style = "Bold Italic" }
-size = 11.5
+normal = { family = "Hack  Nerd Font Mono", style = "Regular" }
+bold = { family = "Hack  Nerd Font Mono", style = "Bold" }
+italic = { family = "Hack  Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "Hack  Nerd Font Mono", style = "Bold Italic" }
+size = 12
