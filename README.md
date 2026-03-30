@@ -7,10 +7,12 @@ Mis archivos de configuración personal.
 | Archivo | Descripción |
 |---------|-------------|
 | `.gitconfig` | Configuración de Git |
+| `.alacritty.toml` | Configuración de Alacritty |
 | `.config/VSCodium/User/settings.json` | Configuración de VSCodium |
 
 ## Requisitos
 
+- [Alacritty](https://alacritty.org/)
 - [VSCodium](https://vscodium.com/)
 - [Hack Nerd Font](https://www.nerdfonts.com/font-downloads)
 
