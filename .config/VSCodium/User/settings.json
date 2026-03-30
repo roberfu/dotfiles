@@ -1,5 +1,6 @@
 {
     "redhat.telemetry.enabled": true,
+    "editor.formatOnSave": true,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "file-icons",
     "workbench.startupEditor": "none",
