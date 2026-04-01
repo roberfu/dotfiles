@@ -1,4 +1,4 @@
-# .dotfiles
+# dotfiles
 
 Mis archivos de configuración personal.
 
