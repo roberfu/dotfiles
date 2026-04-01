@@ -37,7 +37,7 @@ stow .
 
 ### Windows
 
-Ver [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1#L58-L82) (líneas 58-82).
+Ver [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1#L126-L155) (líneas 58-82).
 
 ## Estructura
 
