@@ -1,6 +1,10 @@
 # dotfiles
 
-Mis archivos de configuración personal.
+Archivos de configuración personal para mi entorno de trabajo.
+
+## Descripción
+
+Configuraciones para terminal, editor de texto y herramientas de desarrollo.
 
 ## Requisitos
 
@@ -8,10 +12,7 @@ Mis archivos de configuración personal.
 - [Neovim](https://neovim.io/) - Editor de texto
 - [VSCodium](https://vscodium.com/) - Editor de código
 - [Hack Nerd Font](https://www.nerdfonts.com/font-downloads) - Tipografía
-
-### Linux
-
-- [GNU Stow](https://www.gnu.org/software/stow/) - Gestor de symlinks
+- [GNU Stow](https://www.gnu.org/software/stow/) - Gestor de symlinks (Linux)
 
 ## Configuración SSH
 
@@ -37,23 +38,11 @@ stow .
 
 ### Windows
 
-Ver [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1#L126-L155) (líneas 58-82).
+Ver [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1#L126-L155) en el repositorio runs.
 
-## Estructura
+## Tech Stack
 
-```
-.dotfiles
-├── .alacritty.toml          # Configuración de Alacritty
-├── .gitconfig               # Configuración de Git
-└── .config/
-    ├── nvim/                # Configuración de Neovim (LazyVim)
-    │   ├── init.lua
-    │   ├── ftplugin/
-    │   └── lua/
-    │       ├── config/     # Configuración base
-    │       └── plugins/    # Plugins (LSP, treesitter, etc.)
-    ├── VSCodium/
-    │   └── User/
-    │       └── settings.json  # Configuración de VSCodium
-    └── opencode/            # Configuración de opencode
-```
+- [Alacritty](https://alacritty.org/) - Terminal
+- [Neovim](https://neovim.io/) - Editor (configurado con LazyVim)
+- [VSCodium](https://vscodium.com/) - Editor de código
+- [GNU Stow](https://www.gnu.org/software/stow/) - Gestor de symlinks
