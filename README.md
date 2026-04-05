@@ -8,11 +8,11 @@ Configuraciones para terminal, editor de texto y herramientas de desarrollo.
 
 ## Requisitos
 
-- [Alacritty](https://alacritty.org/) - Emulador de terminal
-- [Neovim](https://neovim.io/) - Editor de texto
+- [Alacritty](https://alacritty.org/) - Emulador de terminal (Solo en Linux)
+- [Neovim](https://neovim.io/) - Editor de texto (Solo en Linux)
 - [VSCodium](https://vscodium.com/) - Editor de código
 - [Hack Nerd Font](https://www.nerdfonts.com/font-downloads) - Tipografía
-- [GNU Stow](https://www.gnu.org/software/stow/) - Gestor de symlinks (Linux)
+- [GNU Stow](https://www.gnu.org/software/stow/) - Gestor de symlinks (Solo en Linux)
 
 ## Configuración SSH
 
@@ -38,11 +38,4 @@ stow .
 
 ### Windows
 
-Ver [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1#L126-L155) en el repositorio runs.
-
-## Tech Stack
-
-- [Alacritty](https://alacritty.org/) - Terminal
-- [Neovim](https://neovim.io/) - Editor (configurado con LazyVim)
-- [VSCodium](https://vscodium.com/) - Editor de código
-- [GNU Stow](https://www.gnu.org/software/stow/) - Gestor de symlinks
+Ver [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1#L83-L102) en el repositorio runs.
