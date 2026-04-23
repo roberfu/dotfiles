@@ -58,7 +58,7 @@ config.colors = {
   },
 }
 
-config.font = wezterm.font("JetBrains Mono", { weight = "Regular" })
+config.font = wezterm.font("Hack Nerd Font", { weight = "Regular" })
 config.font_size = 12.0
 
 config.initial_cols = 160
