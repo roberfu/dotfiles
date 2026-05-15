@@ -1,21 +1,20 @@
 return {
   {
-    "olimorris/onedarkpro.nvim",
+    "folke/tokyonight.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      require("onedarkpro").setup({
+      require("tokyonight").setup({
+        style = "storm",
+        transparent = true,
         styles = {
-          comments = "italic",
-          keywords = "italic",
-          functions = "NONE",
-          variables = "NONE",
-        },
-        options = {
-          transparency = false,
+          comments = { italic = true },
+          keywords = { italic = true },
+          functions = {},
+          variables = {},
         },
       })
-      vim.cmd.colorscheme("onedark")
+      vim.cmd.colorscheme("tokyonight")
     end,
   },
 }
