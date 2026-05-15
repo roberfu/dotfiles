@@ -8,11 +8,13 @@ Configuraciones para terminal, editor de texto y herramientas de desarrollo.
 
 ## Requisitos
 
-- [Alacritty](https://alacritty.org/) - Emulador de terminal (Solo en Linux)
-- [Neovim](https://neovim.io/) - Editor de texto (Solo en Linux)
+- [Alacritty](https://alacritty.org/) - Emulador de terminal
+- [Ghostty](https://ghostty.org/) - Emulador de terminal
+- [Neovim](https://neovim.io/) - Editor de texto
+- [Zed](https://zed.dev/) - Editor de código
 - [VSCodium](https://vscodium.com/) - Editor de código
+- [Oh My Posh](https://ohmyposh.dev/) - Prompt para terminal
 - [Hack Nerd Font](https://www.nerdfonts.com/font-downloads) - Tipografía
-- [GNU Stow](https://www.gnu.org/software/stow/) - Gestor de symlinks (Solo en Linux)
 
 ## Configuración SSH
 
@@ -38,4 +40,12 @@ stow .
 
 ### Windows
 
-Ver [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1#L83-L102) en el repositorio runs.
+Ejecutar el script [windows.ps1](https://github.com/roberfu/runs/blob/main/windows.ps1) que crea los symlinks automáticamente.
+
+## TODO
+
+- [ ] Configurar keybindings personalizados en Neovim
+- [ ] Agregar más plugins de LSP para lenguajes adicionales
+- [ ] Agregar configuración de tmux
+- [ ] Agregar configuración de bash
+- [ ] Agregar configuración de zed
