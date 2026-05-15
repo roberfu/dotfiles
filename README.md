@@ -16,18 +16,6 @@ Configuraciones para terminal, editor de texto y herramientas de desarrollo.
 - [Oh My Posh](https://ohmyposh.dev/) - Prompt para terminal
 - [Hack Nerd Font](https://www.nerdfonts.com/font-downloads) - Tipografía
 
-## Configuración SSH
-
-Antes de clonar el repositorio, configura tu clave SSH:
-
-```bash
-ssh-keygen -t ed25519 -C "tu-email@email.com"
-cat ~/.ssh/id_ed25519.pub
-ssh -T git@github.com
-```
-
-Agrega la clave pública en GitHub: https://github.com/settings/keys
-
 ## Instalación
 
 ### Linux
