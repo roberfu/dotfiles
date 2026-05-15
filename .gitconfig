@@ -5,5 +5,7 @@
     helper = store
 [core]
     editor = nvim
+    autocrlf = false
+    attributesfile = ~/.gitattributes
 [init]
     defaultBranch = main
