@@ -1,11 +1,9 @@
 {
-    "redhat.telemetry.enabled": true,
     "editor.formatOnSave": true,
     "workbench.colorTheme": "Tokyo Night Storm",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
     "editor.fontFamily": "'Hack Nerd Font', Consolas, monospace",
-    "quarkus.tools.alwaysShowWelcomePage": false,
     "editor.fontLigatures": true,
     "material-icon-theme.activeIconPack": "none"
 }
